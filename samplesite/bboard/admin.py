@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Bd
 
-# Register your models here.
+
+admin.site.register(Bd)
+
